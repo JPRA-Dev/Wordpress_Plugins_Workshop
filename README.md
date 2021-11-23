@@ -1,7 +1,6 @@
 # WordPress
 
-<img src="./images/wordpress-logo11.png" alt="Wordpress logo" width="40%" heigth="40%" margin="auto" />
-
+![Alt Text](https://s.w.org/style/images/about/WordPress-logotype-alternative.png)
 
 Last time we spoke about the CMS and build our theme, this time we focus on plugins. When you figured out the need of the website that's plugins make their enter. Depending on the issues you'll find a p
 

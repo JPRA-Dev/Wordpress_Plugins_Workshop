@@ -1,4 +1,4 @@
-# Plugins WordPress
+# Plugins: Search and Dev
 
 ![Alt Text](https://www.making-digital.fr/wp-content/uploads/2018/11/logo-wordPress.png)
 

@@ -29,9 +29,10 @@ Last time we spoke about the CMS and build our theme, this time we focus on plug
 
 - [04. Header](ACF/)
 - [04. Export](ACF/)
+- [05. Dev](ACF/)
+	- [1er plugin](ACF/)
+	- [2ème plugin](ACF/tutoriel1.md)
+	- [3ème plugin](ACF/tutoriel2.md)
 - [05. Boilerplate](ACF/)
-	- [Intro](ACF/)
-	- [Tutoriel: création des champs](ACF/tutoriel1.md)
-	- [Tutoriel: récupération dans les templates](ACF/tutoriel2.md)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

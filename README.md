@@ -3,9 +3,7 @@
 <img src="./images/wordpress-logo11.png" alt="Wordpress logo" width="40%" heigth="40%" margin="auto" />
 
 
-Last time we spoke about the CMS and build our theme, this time we focus on plugins. We focused on
-
-Bref, commençons !
+Last time we spoke about the CMS and build our theme, this time we focus on plugins. When you figured out the need of the website that's plugins make their enter. Depending on the issues you'll find a p
 
 ## Introduction
 
@@ -16,6 +14,15 @@ Bref, commençons !
 - [04. Hooks](content/02.Functions.md)
 - [05. Shortcodes](content/03.codex.md)
 - [06. Widgets](content/04.functionsutiles.md)
+
+## Essentials Plugins
+
+- [04. Header](ACF/)
+- [04. Export](ACF/)
+- [05. Boilerplate](ACF/)
+	- [Intro](ACF/)
+	- [Tutoriel: création des champs](ACF/tutoriel1.md)
+	- [Tutoriel: récupération dans les templates](ACF/tutoriel2.md)
 
 ## Créer son thème
 

@@ -1,6 +1,6 @@
 # Plugins WordPress
 
-![Alt Text](https://insitefulweb.com/wp-content/uploads/2018/05/wordpressPlugins_600px.png)
+![Alt Text](https://www.making-digital.fr/wp-content/uploads/2018/11/logo-wordPress.png)
 
 Last time we spoke about the CMS and build our theme, this time we focus on plugins. When you figured out the need of the website that's plugins make their enter. Depending on the issues you'll find a p
 

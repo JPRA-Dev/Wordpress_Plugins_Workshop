@@ -35,4 +35,6 @@ Last time we spoke about the CMS and build our theme, this time we focus on plug
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)
 
-https://wpbuffs.com/wordpress-plugin-development/
+- https://wpbuffs.com/wordpress-plugin-development/
+- less is more when it comes to plugin
+- 

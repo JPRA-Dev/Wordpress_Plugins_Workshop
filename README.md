@@ -23,8 +23,7 @@ Last time we spoke about the CMS and build our theme, this time we focus on plug
 	- [Tutoriel: création des champs](ACF/tutoriel1.md)
 	- [Tutoriel: récupération dans les templates](ACF/tutoriel2.md)
 
-## Créer son thème
-
+## Building logic
 
 - [04. Header](ACF/)
 - [04. Export](ACF/)

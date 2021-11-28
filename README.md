@@ -37,4 +37,8 @@ Last time we spoke about the CMS and build our theme, this time we focus on plug
 
 - https://wpbuffs.com/wordpress-plugin-development/
 - less is more when it comes to plugin
-- 
+- boilerplate
+- wp ressources
+- wp docs
+- steps
+- bedrock?

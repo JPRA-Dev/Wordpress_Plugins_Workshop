@@ -43,3 +43,6 @@ Last time we spoke about the CMS and build our theme, this time we focus on plug
 - wp docs
 - steps
 - bedrock?
+- https://pressidium.com/blog/wordpress-developers-boilerplate/
+- consignes
+- https://codex.wordpress.org/Function_Reference

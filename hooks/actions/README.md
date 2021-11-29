@@ -17,6 +17,7 @@ function add_action( $hook_name, $callback, $priority = 10, $accepted_args = 1 )
 ```
 do_action('wp_head')
 # creates an action hook
+
 add_action('wp_head','custom_register')
 # when do_action('wp_head') is called WP execute custom_register() as well
 ```

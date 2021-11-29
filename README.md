@@ -18,10 +18,10 @@ Depending on the issues you'll find a plugins corresponding.
 - [01. Header](/)
 - [02. Export](/)
 - [03. From Scratch](/)
-	- [Hooks](/)
-	- [Shortcodes](/)
-	- [Widgets](/)
-- [04. Boilerplate](/)
+	- [Hooks](./hooks)
+	- [Shortcodes](./shortcodes)
+	- [Widgets](./widgets)
+- [04. Boilerplate](https://wppb.me/)
 
 ## Essentials Plugins ?
 

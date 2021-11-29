@@ -2,7 +2,7 @@
 
 Actions are used to executed custom functions after an event occurs which an action executed by the WP core. They are initialized by the do_action( 'action_name' ) function within the WordPress code.
 
-## Actions and filters: two names for the same goal ?
+## Actions and filters: two names, one goal ?
 
 If you take a peek into the core, you will see that add_action is actually a wrapper function for add_filter (wp-includes/plugin.php):
 

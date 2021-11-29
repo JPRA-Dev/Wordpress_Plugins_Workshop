@@ -5,6 +5,8 @@ They are functions declared by the theme or the plugin developer enabling us to 
 They are two types of hooks: 
 - actions: call a functions after an event 
 - filters: get a value at a specific moment in order to modify it
-<br>
+
+## Let us dig!
+
 [01. Actions](/actions)
 [02.Filters](/filter)

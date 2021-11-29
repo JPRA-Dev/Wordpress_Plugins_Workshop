@@ -1,7 +1,6 @@
 # Actions
 
-Les actions sont utilisées pour exécuter des fonctions personnalisées à un moment précis de l’exécution du cœur de WordPress.
-Les actions sont définies / créées par la fonction do_action( 'action_name' ) dans le code de WordPress.
+Actions are used to executed custom functions after an event occurs which an action executed by the WP core. They are initialized by the do_action( 'action_name' ) function within the WordPress code.
 
 ## actions == filters ?
 

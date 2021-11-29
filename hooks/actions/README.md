@@ -13,6 +13,9 @@ function add_action( $hook_name, $callback, $priority = 10, $accepted_args = 1 )
 	return add_filter( $hook_name, $callback, $priority, $accepted_args );
 }
 ```
+Filters should filter information, thus receiving information/data, applying the filter and returning information/data, and then used. However, filters are still action hooks.
+
+WordPress defines [add_filter](https://developer.wordpress.org/reference/functions/add_filter/) as "Hooks a function to a specific filter action," and add_action as "Hooks a function on to a specific action."
 
 ## Actions and callbacks: do_action() & add_action()
 

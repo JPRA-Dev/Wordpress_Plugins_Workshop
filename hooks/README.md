@@ -9,4 +9,4 @@ They are two types of hooks:
 ## Let us dig!
 
 * [01. Actions](./actions)
-* [02. Filters](./filter)
+* [02. Filters](./filters)

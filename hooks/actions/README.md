@@ -12,6 +12,11 @@ function add_action( $hook_name, $callback, $priority = 10, $accepted_args = 1 )
 }
 ```
 
-## Create & call: do_action() & add_action()
+## Actions and callbacks: do_action() & add_action()
 
-When you add_action('wp_head','custom_register'), you are telling PHP that when do_action('wp_head') is called, to call custom_register() as well. 
+```
+do_action('wp_head')
+# creates an action hook
+add_action('wp_head','custom_register')
+# when do_action('wp_head') is called WP execute custom_register() as well
+```

@@ -26,18 +26,18 @@ add_action('wp_head','custom_register', int $priority = 10, int $accepted_args =
 
 Developers can create a custom Action using the Action API to add or remove code from an existing Action by specifying any existing Hook. This process is called “hooking”.
 
-### $hook_name
+#### $hook_name
 (string) (Required) The name of the action to add the callback to.
 
-### $callback
+#### $callback
 (callable) (Required) The callback to be run when the action is called.
 
-### $priority
+#### $priority
 (int) (Optional) Used to specify the order in which the functions associated with a particular action are executed. Lower numbers correspond with earlier execution, and functions with the same priority are executed in the order in which they were added to the action.
 
 Default value: 10
 
-### $accepted_args
+#### $accepted_args
 (int) (Optional) The number of arguments the function accepts.
 
 Default value: 1

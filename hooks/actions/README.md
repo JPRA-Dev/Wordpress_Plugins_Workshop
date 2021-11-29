@@ -4,7 +4,7 @@ Developers can create a custom Action using the Action API to add or remove code
 
 Actions are used to executed custom functions after an event occurs which an action executed by the WP core. They are initialized by the do_action( 'action_name' ) function within the WordPress code.
 
-## Actions and filters: two names, one goal ?
+## 1) Actions and filters: two names, one goal ?
 
 If you take a peek into the core, you will see that add_action is actually a wrapper function for add_filter (wp-includes/plugin.php):
 
@@ -17,7 +17,7 @@ Filters should filter information, thus receiving information/data, applying the
 
 WordPress defines [add_filter](https://developer.wordpress.org/reference/functions/add_filter/) as "Hooks a function to a specific filter action," and add_action as "Hooks a function on to a specific action."
 
-## Actions and callbacks: do_action() & add_action()
+## 2) Actions and callbacks: do_action() & add_action()
 
 ```
 do_action('wp_head')

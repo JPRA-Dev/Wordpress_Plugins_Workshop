@@ -8,20 +8,20 @@ Depending on the issues you'll find a plugins corresponding.
 
 ## Introduction
 
-- [01. Installation](content/01.InstallationBases.md)
-- [02. Plug in the core](content/02.structurefichiers.md)
-- [03. Plugins and themed-plugins](content/01.hierarchy.md)
-- [04. The plugin library](content/01.hierarchy.md)
+- [01. Installation](/)
+- [02. Plug in the core](/)
+- [03. Plugins and themed-plugins](/)
+- [04. The plugin library](/)
 
 ## Building plugins
 
-- [01. Header](ACF/)
-- [02. Export](ACF/)
-- [03. From Scratch](ACF/)
-	- [1er plugin Hooks](content/02.Functions.md)
-	- [2ème plugin Shortcodes](ACF/tutoriel1.md)
-	- [3ème plugin Widgets](ACF/tutoriel2.md)
-- [04. Boilerplate](ACF/)
+- [01. Header](/)
+- [02. Export](/)
+- [03. From Scratch](/)
+	- [Hooks](/)
+	- [Shortcodes](/)
+	- [Widgets](/)
+- [04. Boilerplate](/)
 
 ## Essentials Plugins ?
 

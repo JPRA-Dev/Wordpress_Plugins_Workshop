@@ -6,6 +6,12 @@ Last time we spoke about the CMS and build our theme, this time we focus on plug
 ...
 Depending on the issues you'll find a plugins corresponding.
 
+* The workshop's goals
+* What you'll be able to do by the end ofthe course 
+* Implications of plugin development
+* What are plugins? (What do we already know about WordPress?)
+* The plan of the workshop
+
 ## Introduction
 
 - [01. Installation](/)

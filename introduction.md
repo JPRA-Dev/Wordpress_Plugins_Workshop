@@ -16,3 +16,21 @@ A WordPress plugin is essentially one or more functions defined in PHP files, as
 3) Configure your Plugin
 4) Add Functionality to your Plugin
 5) Package your Plugin
+
+```
+<?php 
+/** 
+ *
+ * Plugin Name: Hello World 
+ * Plugin URI: https://mysite.com/hello-world 
+ * Description: Prints "Hello World" in WordPress admin. 
+ * Version: 0.0.1 
+ * Author: Your Name 
+ * Author URI: https://mysite.com 
+ * Text Domain: hello-world 
+ * License: GPL v2 or later 
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt 
+ *
+ */
+?>
+```

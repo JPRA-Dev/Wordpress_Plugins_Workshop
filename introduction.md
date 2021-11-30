@@ -4,9 +4,11 @@ When WordPress gets updated to a new version, it overrides its core files. Becau
 
 A WordPress plugin is essentially one or more functions defined in PHP files, as PHP is the main scripting language powering WordPress. It also typically has 3 other components:  hooks (action hooks and filter hooks), shortcodes and widgets. These are the main elements of WordPress plugin development.
 
-# Plugins and theme-plugins
+## Plugins and theme-plugins
 
-## functions.php
+### functions.php
+
+## Key Steps
 
 1) Define the Requirements
 2) Create a WordPress Plugin Directory Structure

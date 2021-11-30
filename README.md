@@ -24,9 +24,9 @@ Depending on the issues you'll find a plugins corresponding.
 - [01. Header](/)
 - [02. Export](/)
 - [03. From Scratch](/)
-	- [Hooks](./hooks)
-	- [Shortcodes](./shortcodes)
-	- [Widgets](./widgets)
+	- [Hooks](./content/hooks)
+	- [Shortcodes](./content/shortcodes)
+	- [Widgets](./content/widgets)
 - [04. Boilerplate](https://wppb.me/)
 
 ## Essentials Plugins ?

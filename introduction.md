@@ -6,6 +6,7 @@ A WordPress plugin is essentially one or more functions defined in PHP files, as
 
 ## Plugins and theme-plugins
 
+### wp-content/plugins/
 ### functions.php
 
 ## Key Steps

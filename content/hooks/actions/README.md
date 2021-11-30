@@ -17,7 +17,7 @@ Filters should filter information, thus receiving information/data, applying the
 
 WordPress defines [add_filter](https://developer.wordpress.org/reference/functions/add_filter/) as "Hooks a function to a specific filter action," and add_action as "Hooks a function on to a specific action."
 
-**We can say actions are filters that do not return any value. 
+We can say actions are filters that do not return any value. 
 
 ## 2) Actions and callbacks: do_action() & add_action()
 

@@ -8,8 +8,8 @@ A WordPress plugin is essentially one or more functions defined in PHP files, as
 
 ## functions.php
 
-– 1) Define the Requirements
-– 2) Create a WordPress Plugin Directory Structure
-– 3) Configure your Plugin
-– 4) Add Functionality to your Plugin
-– 5) Package your Plugin
+* 1) Define the Requirements
+* 2) Create a WordPress Plugin Directory Structure
+* 3) Configure your Plugin
+* 4) Add Functionality to your Plugin
+* 5) Package your Plugin

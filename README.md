@@ -19,7 +19,7 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 * Modifying content and reshape WordPress behviour both on admin and client sides
 * Making your features configurable on admin panel
 
-## The plan :world_map:
+## The plan
 
 - [01. Installation](/)
 - [02. A bit of context](/)

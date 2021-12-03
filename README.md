@@ -22,11 +22,11 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 ## The plan
 
 - [01. Installation](/)
-- [02. A bit of context](/)
+- [02. The context](/)
 - [03. Development](/)
 	- [Hooks](./content/hooks)
 	- [Shortcodes](./content/shortcodes)
-- [04. Enhance the structure](https://wppb.me/)
+- [04. Enhance folder structure: Boilerplate](https://wppb.me/)
 - [05. Some essentials plugins](https://wppb.me/)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

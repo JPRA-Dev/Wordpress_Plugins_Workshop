@@ -7,7 +7,7 @@
 ## The Topic 
 WordPress is kind of a paradox. 
 
-Its core files are kind of sloppy but it succeed to became highly extensible. Themes and plugins development made the CMS what it is today, WordPress owes most of its hegemony to its users. 
+Its core files are sloppy but it succeed to became highly extensible. Themes and plugins development made the CMS what it is today, WordPress owes most of its hegemony to its users. 
 
 Mastering skills enabling us to play with this flexibility meaning the best WordPress argument is not insignificant.
 

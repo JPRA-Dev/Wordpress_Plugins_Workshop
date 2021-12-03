@@ -1,4 +1,4 @@
-# Workshop on WordPress Plugins 
+#  A Workshop on WordPress Plugins 
 
 </br>
 

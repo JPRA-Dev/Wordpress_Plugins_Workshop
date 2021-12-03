@@ -21,26 +21,13 @@ Depending on the issues you'll find a plugins corresponding.
 
 ## Building plugins
 
-- [01. Header](/)
-- [02. Export](/)
-- [03. From Scratch](/)
+- [01. Context](/)
+- [02. From Scratch](/)
 	- [Hooks](./content/hooks)
 	- [Shortcodes](./content/shortcodes)
-	- [Widgets](./content/widgets)
-- [04. Boilerplate](https://wppb.me/)
+- [03. Boilerplate](https://wppb.me/)
+- [04. Some essentials plugins](https://wppb.me/)
 
 ## Essentials Plugins ?
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)
-
-- https://wpbuffs.com/wordpress-plugin-development/
-- https://kinsta.com/fr/blog/hooks-wordpress/
-- less is more when it comes to plugin
-- boilerplate
-- wp ressources
-- wp docs
-- steps
-- bedrock?
-- https://pressidium.com/blog/wordpress-developers-boilerplate/
-- consignes
-- https://codex.wordpress.org/Function_Reference

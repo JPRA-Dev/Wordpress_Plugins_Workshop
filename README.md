@@ -1,31 +1,27 @@
-# Plugins
+# Workshop on WordPress Plugins
 
-![Alt Text](https://www.making-digital.fr/wp-content/uploads/2018/11/logo-wordPress.png)
+WordPress is kind of a paradox. 
 
-Last time we spoke about the CMS and build our theme, this time we focus on plugins. 
-...
-Depending on the issues you'll find a plugins corresponding.
+Its core files are kind of sloppy but it succeed to become highly extensible. Themes and plugins development mades the CMS what it is today, WordPress owes most of its hegemony to users. Mastering skills enabling us to play with this flexibility meaning the best WordPress arguments is not insignificant.
 
-* The workshop's goals
-Make you understand WP key concept
-Ease the reading of wp strcuture 
-* What you'll be able to do by the end ofthe course 
-Using 
-* Implications of plugin development
+### The workshop's goals
+* Make you understand key concept within the WP mecanics
+* Ease the reading of WP's structure 
 
-* What are plugins? (What do we already know about WordPress?)
+### What you'll be able to do by the end of the course 
+* Modifying content and reshape WordPress behviour both on admin and client from backend
+* Making your features configurable on admin panel
+
+### Implications of WP plugin development
+* ...
 
 ### The plan of the workshop
-
 #### Introduction
-
 - [01. Installation](/)
-- [02. Plug in the core](/)
-- [03. Plugins and themed-plugins](/)
-- [04. The plugin library](/)
+- [02. What are they? Plug in the core - Plugins and themed-plugins](/)
+- [03. The plugin library](/)
 
 #### Building plugins
-
 - [01. Context](/)
 - [02. From Scratch](/)
 	- [Hooks](./content/hooks)

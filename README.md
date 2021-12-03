@@ -23,7 +23,7 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 * Making your features configurable on admin panel
 
 ### Implications of WP plugin development
-* 
+
 
 ### The plan of the workshop
 #### Introduction

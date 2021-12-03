@@ -159,7 +159,7 @@ function settings()
 }
 ```
 
-5) 
+5) ...
 ```
 function sanitizeLocation($input){
    if($input != '0' AND $input != '1') {
@@ -174,7 +174,7 @@ function sanitizeLocation($input){
 }
 
 /*
-** Character Count
+** 
 */
 function checkboxHTML($args) 
 { ?>
@@ -182,7 +182,7 @@ function checkboxHTML($args)
 <?php }
 
 /*
-** Character Count
+** 
 */
 function headlineHTML() 
 { ?>

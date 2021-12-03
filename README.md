@@ -11,17 +11,19 @@ Its core files are kind of sloppy but it succeeds to became highly extensible. T
 
 Mastering skills enabling us to play with this flexibility meaning the best WordPress argument is not insignificant.
 
-### The workshop's goals
+## The workshop's goals
+
 * Make you understand key concept within the WP mecanics
 * Ease your reading of WP's structure 
-### What you'll be able to do by the end of the course 
+## What you'll be able to do by the end of the course 
+
 * Modifying content and reshape WordPress behviour both on admin and client sides
 * Making your features configurable on admin panel
 
-### Implications of WP plugin development
+## Implications of WP plugin development
 
 
-### The plan of the workshop :gear: :wrench:
+## The plan :gear: :wrench:
 
 - [01. Installation](/)
 - [02. What are they? Plug in the core - Plugins and themed-plugins](/)

@@ -1,3 +1,8 @@
+
+    01. Installation
+    02. What are they? Plug in the core - Plugins and themed-plugins
+    03. The plugin library
+
 # A bit of context
 
 A WordPress plugin is essentially one or more functions defined in PHP files, as PHP is the main scripting language powering WordPress. It also typically has 3 other components:  

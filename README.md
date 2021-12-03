@@ -23,12 +23,12 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 
 ### The plan of the workshop
 
-#### Introduction
+#### Fudamentals :gear:
 - [01. Installation](/)
 - [02. What are they? Plug in the core - Plugins and themed-plugins](/)
 - [03. The plugin library](/)
 
-#### Building plugins
+#### Development :wrench:
 - [01. Context](/)
 - [02. From Scratch](/)
 	- [Hooks](./content/hooks)

@@ -23,16 +23,15 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 ## Implications of WP plugin development
 
 
-## The plan :gear: :wrench:
+## The plan :world_map:
 
 - [01. Installation](/)
-- [02. What are they? Plug in the core - Plugins and themed-plugins](/)
-- [03. The plugin library](/)
-- [04. Development Context](/)
-- [05. From Scratch](/)
+- [02. A bit of context](/)
+- [03. Development](/)
+- [04. From Scratch](/)
 	- [Hooks](./content/hooks)
 	- [Shortcodes](./content/shortcodes)
-- [06. Boilerplate](https://wppb.me/)
-- [07. Some essentials plugins](https://wppb.me/)
+- [05. Boilerplate](https://wppb.me/)
+- [06. Some essentials plugins](https://wppb.me/)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

@@ -23,7 +23,7 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 
 - [01. Installation](/)
 - [02. The context](/)
-- [03. Development](/)
+- [03. Live Coding](/)
 	- [Hooks](/)
 	- [Shortcodes](/)
 - [04. Enhance folder structure](/)

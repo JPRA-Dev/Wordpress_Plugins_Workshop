@@ -1,3 +1,54 @@
+```
+function __construct()
+	{
+		add_action('admin_menu', array($this, 'adminPage')); //container - fires before the loading of admin menu
+		add_action('admin_init', array($this, 'settings')); //content -  within admin area but after admin_meny
+		add_filter('the_content', array($this, 'ifWrap')); //reference
+	}
+
+	function ifWrap($content) {
+		if (is_main_query() AND is_single() AND (
+			get_option('wcp_wordcount', '1') OR 
+			get_option('wcp_charcount', '1') OR
+			get_option('wcp_readtime', '1')
+		)) {
+			return $this->createHTML($content);
+		}
+	}
+
+	function createHTML($content){
+		$html = '<h3>'. esc_html(get_option('wcp_headline', 'Post Statistics')) . '</h3><p>';
+
+		if(get_option('wcp_wordcount', '1') OR get_option('wcp_readtime', '1')) {
+			$wordCount = str_word_count(strip_tags($content)); 
+		}
+
+		if(get_option('wcp_wordcount', '1')) {
+			$html .= 'This post has ' . $wordCount . ' words.<br>'; 
+		}
+
+		if(get_option('wcp_charcount', '1')) {
+			$html .= 'This post has ' . strlen(strip_tags($content)) . ' characters.<br>'; 
+		}
+
+		if(get_option('wcp_readtime', '1')) {
+			$html .= 
+			'This post will take about ' . 
+			round($wordCount/255) . 
+			' minute' . (round($wordCount/255) > 1 ? 's' : '') . 
+			' to read.<br>'; 
+		}
+
+		$html .= '</p>';
+
+		if(get_option('wcp_location', '0') == '0')
+		{
+			return $html . $content;
+		}
+		return $content . $html;
+	}
+   $wordCountAndTimePlugin = new WordCountAndTimePlugin();
+   ```
 # Word Count Plugin Development
 
 Previously we saw how to set up a filter with the helps of multiple WP APIs. We're going to abord a step offering more flexibility and control client-side regarding the featues. 

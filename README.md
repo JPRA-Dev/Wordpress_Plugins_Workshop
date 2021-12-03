@@ -24,10 +24,9 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 - [01. Installation](/)
 - [02. A bit of context](/)
 - [03. Development](/)
-- [04. From Scratch](/)
 	- [Hooks](./content/hooks)
 	- [Shortcodes](./content/shortcodes)
-- [05. Boilerplate](https://wppb.me/)
-- [06. Some essentials plugins](https://wppb.me/)
+- [04. Boilerplate](https://wppb.me/)
+- [05. Some essentials plugins](https://wppb.me/)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

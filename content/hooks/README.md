@@ -8,6 +8,5 @@ They are two types of hooks:
 
 ## Let us dig!
 
-* [01. Actions](./actions)
-* [02. Filters](./filters)
-
+* [01. Filters](./filters)
+* [02. Actions](./actions)

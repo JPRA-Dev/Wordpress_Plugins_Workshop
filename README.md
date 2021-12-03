@@ -1,4 +1,4 @@
-#  A Workshop on WordPress Plugins 
+#  Core and APIs: A Workshop on WordPress Plugins 
 
 </br>
 

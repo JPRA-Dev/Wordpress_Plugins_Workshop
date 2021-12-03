@@ -6,7 +6,7 @@ Actions are used to executed custom functions after an event occurs which an act
 
 ## 1) Actions and filters: two names, one goal ?
 
-If you take a peek into the core, you will see that add_action is actually a wrapper function for add_filter (wp-includes/plugin.php):
+If you take a peek into the core, you will see that add_action is actually a wrapper function for add_filter `wp-includes/plugin.php`:
 
 ```
 function add_action( $hook_name, $callback, $priority = 10, $accepted_args = 1 ) {

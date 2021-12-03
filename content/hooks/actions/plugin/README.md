@@ -94,9 +94,7 @@ function settings()
 
    /*
    ** Definition of checkboxes enabling us to control the display of informations
-   **    1) Word Count
-   **    2) Character Count
-   **    3) Read Time
+   ** Word Count
     */
    add_settings_field(
       'wcp_wordcount', 
@@ -116,7 +114,9 @@ function settings()
       )
    );
 
-
+   /*
+   ** Character Count
+    */
    add_settings_field(
       'wcp_charcount', 
       'Character Count', 
@@ -135,7 +135,9 @@ function settings()
       )
    );
 
-
+   /*
+   ** Read Time
+    */
    add_settings_field(
       'wcp_readtime', 
       'Read Time', 
@@ -171,21 +173,30 @@ function sanitizeLocation($input){
    return $input;
 }
 
+/*
+** Character Count
+*/
 function checkboxHTML($args) 
 { ?>
    <input type="checkbox" name="<?php echo $args['theName'] ?>" value="1" <?php checked(get_option($args['theName']), 1) ?>>
 <?php }
 
+/*
+** Character Count
+*/
 function headlineHTML() 
 { ?>
    <input type="text" name="wcp_headline" value="<?php echo esc_attr(get_option('wcp_headline')) // ?>">
 <?php }
 
-   function locationHTML() 
+/*
+** Definition of the location dropdown 
+*/
+function locationHTML() 
 { ?>
    <select name="wcp_location">
-      <option value="0" <?php selected(get_option('wcp_location'), 0) ?>>Beginning of post</option>
-      <option value="1" <?php selected(get_option('wcp_location'), 1)?>>End of post</option>
+      <option value="0" <?php selected(get_option('wcp_location'), 0) ?>>Beginning of post</option> <!-- get_option Retrieves an option value based on an option name -->
+      <option value="1" <?php selected(get_option('wcp_location'), 1) ?>>End of post</option>
    </select>   
 <?php }
 ```

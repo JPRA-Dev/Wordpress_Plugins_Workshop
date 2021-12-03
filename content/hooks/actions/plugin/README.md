@@ -6,7 +6,7 @@ We are going to develop a word count plugin but you'll see that it is more of a 
 
 ## Development
 
-1) Create a class in order to set a context to resolve function's name conflict issues
+1) Create a class in order to set a context resolving function's name conflict issues
 ```
 class WordCountAndTimePlugin {}
 ```

@@ -1,9 +1,44 @@
+++ page on admin menu first
+++ settings 
+++ ifwrap + createHTML -- > refere to our defined options and what should be output before content displaying
+
+functions & methods & Settings API & hooks
+
+add_action()
+add_filter()
+
+hooks--
+admin_menu
+admin_init
+the_content // filter
+
+conditionals--
+is_main_query()
+is_single()
+
+get_option() // trigger an option ?
+esc_html()
+
+add_options_page()
+
+settings_fields()
+do_settings_sections()
+submit_button()
+
+add_settings_section()
+add_settings_field() 
+register_setting()
+add_settings_error()
+checked() // if the two arguments are identical -- marked as checked
+esc_attr() // escape within attribute value
+selected()
+
 index.php + 
 ```
 function __construct()
 	{
 		add_action('admin_menu', array($this, 'adminPage')); //container - fires before the loading of admin menu
-		add_action('admin_init', array($this, 'settings')); //content -  within admin area but after admin_meny
+		add_action('admin_init', array($this, 'settings')); //content -  within admin area but after admin_menu
 		add_filter('the_content', array($this, 'ifWrap')); //reference
 	}
 
@@ -58,12 +93,20 @@ We are going to develop a word count plugin but you'll see that it is more of a 
 
 ## Development
 
+We need to make our plugin accessible as soon as the admin panel is loaded
+
+```
+function __construct() // Everything is executed as soon as the class is instanciated
+{
+	add_action('admin_menu', array($this, 'adminPage'));
+}
+```
 1) Create a class in order to set a context resolving function's name conflict issues
 ```
 class WordCountAndTimePlugin {}
 ```
 
-2) How to make our features available within admin panel
+2) How to make our features available in the settings menu within the admin panel
 ```
 function adminPage()
 {
@@ -105,6 +148,7 @@ function settings()
    );
 
    /*
+   ** add_settings_field() reserves a place for our setting within the HTML page definied in add_options_page()
    ** Definition of the dropdown enabling us to choose the position of the fields regarding the the article
     */
    add_settings_field(              // definition of a field within the page
@@ -115,6 +159,9 @@ function settings()
       'wcp_first_section'           // reference to the field section define above
    );
    
+    /*
+   ** Unable the the saving and updating of the option within the wp-options table in database 
+    */
    register_setting(                // register a settings and its data
       'wordcountplugin',            // option group (meaning the settings?)
       'wcp_location',               // option name 
@@ -154,7 +201,7 @@ function settings()
       array($this, 'checkboxHTML'), 
       'word-count-settings-page', 
       'wcp_first_section', 
-      array('theName' => 'wcp_wordcount')
+      array('theName' => 'wcp_wordcount') // passes arguments within the callback function checkboxHTML()
    );
       
    register_setting(

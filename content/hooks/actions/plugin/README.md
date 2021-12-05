@@ -36,13 +36,16 @@ checked() // if the two arguments are identical -- marked as checked
 esc_attr() // escape within attribute value
 selected() // if the two arguments are identical -- marked as selected
 
+
 adminPage()
+ourHTML()
+settings()
+
 ifWrap($content)
 createHTML($content)
 
-settings()
-ourHTML()
 sanitizeLocation($input)
+
 checkboxHTML($args) 
 headlineHTML() 
 locationHTML() 

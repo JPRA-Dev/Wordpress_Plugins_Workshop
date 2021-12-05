@@ -10,6 +10,9 @@ We are going to develop a word count plugin but you'll see that it is more of a 
 
 ### Requirement
 
+- 
+- sanitize
+
 ### Coding Steps
 
 - definition of the hook callback needed to render our plugin within admin panel 
@@ -21,7 +24,7 @@ We are going to develop a word count plugin but you'll see that it is more of a 
 	- text 		 => Headline
 - definition of the filter provinding the 
 
-// definition of a field within the page
+definition of a field within the page
 	// definition of the field name
 	// HTML title 
 	// callback of the field's HTML
@@ -37,11 +40,11 @@ add_action('admin_menu', array($this, 'adminPage'));
 function adminPage()
 {
    add_options_page(
-      'Word Count Settings',            // title of the page
-      'Word Count',                     // name displayed within the settings menu
-      'manage_options',                 // access control based on user's permissions
-      'word-count-settings-page',       // slug
-      array($this, 'ourHTML')           // referencing 
+      'Word Count Settings',            
+      'Word Count',                     
+      'manage_options',                 
+      'word-count-settings-page',       
+      array($this, 'ourHTML')          
    );
 }
 ```
@@ -61,45 +64,38 @@ function ourHTML() { ?>
 <?php } 
 ```
 
-#### 2) definition of settings on both side
-
+#### 2) definition of section
 ```
-function settings()
-{
-   add_settings_section( // registers a form section
-      'wcp_first_section',          // slug-id of the settings section
-      null, //subtitle              // heading line at the top the section
-      null, //paragraph             // echoes between heading and fields
-      'word-count-settings-page'    // slug of the section's page
-   );
 
-   /*
-   ** add_settings_field() reserves a place for our setting within the HTML page definied in add_options_page()
-   ** Definition of the dropdown enabling us to choose the position of the fields regarding the the article
-    */
-   add_settings_field(              // definition of a field within the page
-      'wcp_location',               // definition of the field name
-      'Display Location',           // HTML title 
-      array($this, 'locationHTML'), // callback of the field's HTML
-      'word-count-settings-page',   // slug of the section's page
-      'wcp_first_section'           // reference to the field section define above
+   add_settings_section(
+      'wcp_first_section',          
+      null,             
+      null,           
+      'word-count-settings-page'    
+   );
+```
+##### 3) settings fields and register handler
+##### 3.1) Location
+```
+   add_settings_field(           
+      'wcp_location',               
+      'Display Location',           
+      array($this, 'locationHTML'), 
+      'word-count-settings-page',  
+      'wcp_first_section'          
    );
    
-    /*
-   ** Unable the the saving and updating of the option within the wp-options table in database but sanitize before
-    */
-   register_setting(                // register a settings and its data
-      'wordcountplugin',            // option group (meaning the settings?)
-      'wcp_location',               // option name 
-      array(                        // security layer defined accepted data in the dropdown
+   register_setting(            
+      'wordcountplugin',     
+      'wcp_location',              
+      array(                        
          'sanitize_callback' => array($this, 'sanitizeLocation'), 
-         'default' => '0' // default value when calling get_option()
+         'default' => '0'
       )
    );
-
-   /*
-   ** Definition of the client-side ouput headline
-    */
+```
+###### 3.2) Headline
+```
    add_settings_field(
       'wcp_healine', 
       'Headline Text', 
@@ -109,25 +105,23 @@ function settings()
    );
       
    register_setting(
-      'wordcountplugin', //group
-      'wcp_healine', //setting
+      'wordcountplugin', 
+      'wcp_healine',
       array(
          'sanitize_callback' => 'sanitize_text_field', 
          'default' => 'Post Statistics'
       )
    );
-
-   /*
-   ** Definition of checkboxes enabling us to control the display of informations
-   ** Word Count
-    */
+```
+###### 3.3) Word Count
+```
    add_settings_field(
       'wcp_wordcount', 
       'Word Count', 
       array($this, 'checkboxHTML'), 
       'word-count-settings-page', 
       'wcp_first_section', 
-      array('theName' => 'wcp_wordcount') // passes arguments within the callback function checkboxHTML()
+      array('theName' => 'wcp_wordcount')
    );
       
    register_setting(
@@ -138,10 +132,9 @@ function settings()
          'default' => '1'
       )
    );
-
-   /*
-   ** Character Count
-    */
+```
+###### 3.4) Character Count
+```
    add_settings_field(
       'wcp_charcount', 
       'Character Count', 
@@ -159,10 +152,9 @@ function settings()
          'default' => '1'
       )
    );
-
-   /*
-   ** Read Time
-    */
+```
+###### 3.5) Read Time
+```
    add_settings_field(
       'wcp_readtime', 
       'Read Time', 
@@ -180,6 +172,5 @@ function settings()
          'default' => '1'
       )
    );
-
-}
 ```
+

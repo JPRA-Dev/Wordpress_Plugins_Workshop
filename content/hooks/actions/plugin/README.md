@@ -1,7 +1,7 @@
 ++ page on admin menu first
 ++ settings 
 ++ ifwrap + createHTML -- > refere to our defined options and what should be output before content displaying
-
+Everything you'll find within those mds helped us to build what you see so It will surely help you retrieve your way for each steps
 Hooks & APIs
 
 add_action()

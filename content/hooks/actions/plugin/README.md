@@ -51,6 +51,7 @@ headlineHTML()
 locationHTML() 
 
 index.php + 
+
 ```
 function __construct()
 	{
@@ -101,7 +102,7 @@ function __construct()
 		return $content . $html;
 	}
    $wordCountAndTimePlugin = new WordCountAndTimePlugin();
-   ```
+```
 # Word Count Plugin Development
 
 Previously we saw how to set up a filter with the helps of multiple WP APIs. We're going to abord a step offering more flexibility and control client-side regarding the featues. 

@@ -2,14 +2,14 @@
 ++ settings 
 ++ ifwrap + createHTML -- > refere to our defined options and what should be output before content displaying
 
-functions & methods & Settings API & hooks
+Hooks & APIs
 
 add_action()
 add_filter()
 
 hooks--
 admin_menu
-admin_init
+admin_init 
 the_content // filter
 
 conditionals--
@@ -17,21 +17,35 @@ is_main_query()
 is_single()
 
 get_option() // trigger an option ?
-esc_html()
+esc_html() // filters a string cleaned and escaped for output in HTML 
 
-add_options_page()
+add_options_page() // add submenu page to the Settings main menu.
 
-settings_fields()
-do_settings_sections()
-submit_button()
+settings_fields() // output nonce, action, and option_page fields for a settings page defined by the $arg being the settings group
+do_settings_sections() // output all the sections and fields that were added to that $page with add_settings_section() and add_settings_field()
+submit_button() // output submit button
 
-add_settings_section()
-add_settings_field() 
-register_setting()
-add_settings_error()
+add_settings_section() // register a settings error to be displayed to the user.
+
+add_settings_field() // Part of the Settings API. Use this to define a settings field that will show as part of a settings section inside a settings page. The fields are shown using do_settings_fields() in do_settings-sections()
+
+register_setting() // whitelist db for updating saving
+add_settings_error() 
+
 checked() // if the two arguments are identical -- marked as checked
 esc_attr() // escape within attribute value
-selected()
+selected() // if the two arguments are identical -- marked as selected
+
+adminPage()
+ifWrap($content)
+createHTML($content)
+
+settings()
+ourHTML()
+sanitizeLocation($input)
+checkboxHTML($args) 
+headlineHTML() 
+locationHTML() 
 
 index.php + 
 ```
@@ -127,9 +141,9 @@ function ourHTML() { ?>
       <h1>Word Count Settings</h1>
       <form action='options.php' method='POST'>
          <?php
-            settings_fields('wordcountplugin');                 // define the settings group
-            do_settings_sections('word-count-settings-page');   // output settings on page sluged like $param
-            submit_button();                                    // output submit button
+            settings_fields('wordcountplugin');                 
+            do_settings_sections('word-count-settings-page');   
+            submit_button();                                    
          ?>
       </form>
    </div>
@@ -160,14 +174,14 @@ function settings()
    );
    
     /*
-   ** Unable the the saving and updating of the option within the wp-options table in database 
+   ** Unable the the saving and updating of the option within the wp-options table in database but sanitize before
     */
    register_setting(                // register a settings and its data
       'wordcountplugin',            // option group (meaning the settings?)
       'wcp_location',               // option name 
       array(                        // security layer defined accepted data in the dropdown
          'sanitize_callback' => array($this, 'sanitizeLocation'), 
-         'default' => '0'
+         'default' => '0' // default value when calling get_option()
       )
    );
 

@@ -26,7 +26,7 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 - [03. Live Coding](/)
 	- [Hooks](/)
 	- [Shortcodes](/)
-- [04. Enhance folder structure](/)
-- [05. Some essentials plugins](https://wppb.io/)
+- [04. Enhance folder structure](https://wppb.io/)
+- [05. Some essentials plugins](/)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

@@ -23,7 +23,7 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 
 - [01. Installation](/)
 - [02. Context of plugin development](/)
-- [03. Live Coding](/)
+- [03. Coding](/)
 	- [Hooks](/)
 	- [Shortcodes](/)
 - [04. Boilerplate](https://wppb.io/)

@@ -12,15 +12,16 @@ Its core files are sloppy but it succeed to became highly extensible. Themes and
 Mastering skills enabling us to play with this flexibility meaning the best WordPress argument is not insignificant.
 
 ## The workshop's goals
-* Make you understand key concept within the WP mecanics
-* Ease your reading of WP's structure 
+* Make you understand key concepts when it comes to plugin development
+* Give you some discernment in regards to the CMS files & folder structure 
 
 ## What you'll be able to do by the end of the course 
-* Modifying content and reshaping WordPress behviour both on admin and client sides
-* Making your features configurable on admin panel
+* Modify content and reshaping WordPress behviour both on admin and client sides
+* Making your features modulable on admin panel
 
 ## The plan
-
+- [Installation](./content/installation.md)
+- [Context](./content/context.md)
 - [Hooks](./content/hooks.md)
 - [Shortcodes](./content/shortcodes.md)
 - [Boilerplate](https://wppb.me/)

@@ -8,8 +8,9 @@
 ![Alt](./images/plugins.png)
 
 ## Import
-[Download this](https://github.com/RayaneLamri/pluginsWPworkshop/raw/main/content/files/wordpress.zip)
----
+
+- [Download this](https://github.com/RayaneLamri/pluginsWPworkshop/raw/main/content/files/wordpress.zip)
+
 ![Alt](./images/import.png)
 ![Alt](./images/runimport.png)
 

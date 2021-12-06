@@ -21,8 +21,8 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 
 ## The plan
 
-- [Hooks](./content/03.hooks.md)
-- [Shortcodes](./content/03.shortcodes.md)
+- [Hooks](./content/hooks.md)
+- [Shortcodes](./content/shortcodes.md)
 - [Boilerplate](https://wppb.me/)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

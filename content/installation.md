@@ -9,7 +9,7 @@
 
 ## Import
 
-- [Download this and unzip it](https://github.com/RayaneLamri/pluginsWPworkshop/raw/main/content/files/wordpress.zip)
+- [Download this and unzip it](https://github.com/RayaneLamri/pluginsWPworkshop/raw/main/content/files/import.zip)
 
 ![Alt](./images/import.png)
 ![Alt](./images/runimport.png)

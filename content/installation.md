@@ -1,7 +1,7 @@
 # Installation 
 
 ## Initiate WordPress and database
-[WordPress](./files/wordpress.zip)
+[WordPress](https://github.com/RayaneLamri/pluginsWPworkshop/raw/main/content/files/wordpress.zip)
 ## Activate theme & plugins
 
 ![Alt](./images/theme.png)

@@ -13,10 +13,10 @@ We'll have a control on their display.
 
 ## Requirement
 
-1) [Display the plugin in the admin panel](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/03.hooks.md#1-display-the-plugin-in-the-admin-panel)
-2) [Create a setting page](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/03.hooks.md#2-create-a-setting-page)
-3) [Sanitize all of the setting page inputs](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/03.hooks.md#3-sanitize-all-of-the-setting-page-inputs)
-4) [Render the result on client-side](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/03.hooks.md#4-render-the-result-on-client-side)
+1) [Display the plugin in the admin panel](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/hooks.md#1-display-the-plugin-in-the-admin-panel)
+2) [Create a setting page](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/hooks.md#2-create-a-setting-page)
+3) [Sanitize all of the setting page inputs](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/hooks.md#3-sanitize-all-of-the-setting-page-inputs)
+4) [Render the result on client-side](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/hooks.md#4-render-the-result-on-client-side)
 
 ### 1) Display the plugin in the admin panel
 ```

@@ -21,11 +21,8 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 
 ## The plan
 
-- [01. Installation](./content/01.installation.md)
-- [02. Context of plugin development](./content/02.context.md)
-- [03. Coding](./)
-	- [Hooks](./content/03.hooks.md)
-	- [Shortcodes](./content/03.shortcodes.md)
-- [04. Boilerplate](./content/04.boilerplate.md)
+- Hooks](./content/03.hooks.md)
+- [Shortcodes](./content/03.shortcodes.md)
+- [Boilerplate](https://wppb.me/)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

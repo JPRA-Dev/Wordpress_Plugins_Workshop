@@ -23,7 +23,7 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 
 - [01. Installation](./content.installation.md)
 - [02. Context of plugin development](./content.context.md)
-- [03. Coding](./)
+- [03. Coding](/)
 	- [Hooks](./content.hooks.md)
 	- [Shortcodes](./content.shortcodes.md)
 - [04. Boilerplate](./content.boilerplate.md)

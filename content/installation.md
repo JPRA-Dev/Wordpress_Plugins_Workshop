@@ -14,4 +14,5 @@
 
 ## Refresh permalinks
 
+![Alt](./images/savepermalinks.png)
 ![Alt](./images/permalinks.png)

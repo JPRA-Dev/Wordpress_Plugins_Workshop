@@ -4,7 +4,7 @@
 [WordPress](./files/wordpress.zip)
 ## Activate theme & plugins
 
-![Alt](./images/themes.png)
+![Alt](./images/theme.png)
 ![Alt](./images/plugins.png)
 
 ## Import

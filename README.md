@@ -20,10 +20,10 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 * Making your features modulable on admin panel
 
 ## The plan
-- [Installation](./content/installation.md)
-- [Context](./content/context.md)
-- [Hooks](./content/hooks.md)
-- [Shortcodes](./content/shortcodes.md)
+- [Installation](./content/01.installation.md)
+- [Context](./content/02.context.md)
+- [Hooks](./content/03.hooks.md)
+- [Shortcodes](./content/04.shortcodes.md)
 - [Boilerplate](https://wppb.me/)
 
 ![Alt Text](https://c.tenor.com/enoxxJtm0yMAAAAC/neo-plugging-to-matrix.gif)

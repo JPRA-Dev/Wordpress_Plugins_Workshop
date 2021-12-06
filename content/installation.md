@@ -1,6 +1,6 @@
 # Installation 
 
-## Initiate WordPress and database
+## Initiate WordPress and Create database (unicode-ci)
 [WordPress](https://github.com/RayaneLamri/pluginsWPworkshop/raw/main/content/files/wordpress.zip)
 ## Activate theme & plugins
 

@@ -21,7 +21,7 @@ Mastering skills enabling us to play with this flexibility meaning the best Word
 
 ## The plan
 
-- Hooks](./content/03.hooks.md)
+- [Hooks](./content/03.hooks.md)
 - [Shortcodes](./content/03.shortcodes.md)
 - [Boilerplate](https://wppb.me/)
 

@@ -8,7 +8,8 @@
 ![Alt](./images/plugins.png)
 
 ## Import
-[Download this](https://github.com/RayaneLamri/pluginsWPworkshop/blob/main/content/files/workshop.WordPress.2021-12-06.xml)
+[Download this](https://github.com/RayaneLamri/pluginsWPworkshop/raw/main/content/files/wordpress.zip)
+---
 ![Alt](./images/import.png)
 ![Alt](./images/runimport.png)
 

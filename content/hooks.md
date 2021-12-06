@@ -5,7 +5,7 @@
 We want a plugin informing us on a post we're about to read by the help of various informations.
 - Reading time
 - Number of words
-- Numbers of characters
+- Number of characters
 - The position of the info block
 - The title of the block
 

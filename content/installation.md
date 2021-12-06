@@ -10,6 +10,7 @@
 ## Import
 
 ![Alt](./images/import.png)
+![Alt](./images/runimport.png)
 
 ## Refresh permalinks
 

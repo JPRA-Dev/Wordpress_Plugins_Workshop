@@ -4,7 +4,7 @@ Last time we dealt with theme development and so we approached multiple notions 
 
 This time we are going to deepen our understanding on how WordPress can extend its core features with the help of hooks or shortcodes in order for users to make infinite amount of features. 
 
-# What are hooks?
+## What are hooks?
 
 The easiest way to put this is to say that hooks are events for example the loading of the admin panel or of a single page. A hook helps us to call a function we defined previously at a precise moment. 
 
